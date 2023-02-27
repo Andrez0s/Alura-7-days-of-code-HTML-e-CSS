@@ -1,0 +1,43 @@
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    max-width: 1280px;
+    margin: auto;
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 1rem;
+}
+
+.depoimentos span {
+    font-size: 0.87rem;
+    font-weight: 600;
+    color: var(--bordo);
+}
+
+.depoimentos img {
+    align-self: center;
+}
+
+.depoimentos p {
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--bordo);
+    color: var(--azul-escuro);
+    margin: 1rem 0 2rem 0;
+}
+
+.depoimentos h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--azul-escuro);
+    margin: 1rem 0 0.5rem 0;
+}
+
+.depoimentos h3 {
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}

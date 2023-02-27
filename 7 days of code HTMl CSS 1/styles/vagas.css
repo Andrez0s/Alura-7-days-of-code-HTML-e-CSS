@@ -1,0 +1,84 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.vagas__descricao {
+    align-items: center;
+    text-align: center;
+}
+
+.vagas__descricao h2 {
+    margin: 1rem 0 1.25rem 0;
+}
+
+.vagas__descricao p {
+    margin-bottom: 4rem;
+}
+
+.vagas__container {
+    margin: 0 10% 0 30%;
+}
+
+.vagas__container h2 {
+    margin: 4rem 0;
+}
+
+.vagas__descricao span:first-child {
+    font-size: 0.87rem;
+    font-weight: 500;
+    font-family: var(--font-principal);
+    color: var(--bordo);
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.vagas__descricao h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: var(--font-principal);
+    color: var(--azul-escuro);
+}
+
+.vagas__descricao p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: var(--font-principal);
+    color: var(--cinza-claro);
+}
+
+.vagas h2{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: var(--font-principal);
+    color: var(--azul-escuro);
+}
+
+.vaga {
+    border: 1px solid var(--bordas);
+    width: 700px;
+    border-radius: 1rem;
+    margin: 1.5rem 0;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.vaga h3 {
+    font-size: 1.12rem;
+    font-weight: 500;
+    font-family: var(--font-principal);
+    color: var(--azul-escuro);
+    margin: 0 1.5rem 3.5rem 1.5rem;
+}
+
+.vaga__informacoes span {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--font-principal);
+    color: var(--cinza-claro);
+    margin: 2rem 1.5rem;
+    
+}

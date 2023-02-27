@@ -1,0 +1,32 @@
+.metricas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    padding: 6rem 7% 10% 7%;
+}
+
+.metricas div {
+    text-align: left;
+}
+
+.metricas h2 {
+    font-size: 3.75rem;
+    font-family: var(--font-principal);
+    font-weight: 600;
+    color: var(--bordo);
+}
+
+.metricas h3 {
+    font-size: 1.12rem;
+    font-family: var(--font-principal);
+    font-weight: 500;
+    color: var(--azul-escuro);
+    margin: 1.5rem 0 1rem 0;
+}
+
+.metricas span {
+    font-size: 1rem;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
